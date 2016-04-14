@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,41 +22,30 @@
             android:textAlignment="center"
             android:textSize="20sp"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/popMovie"
             android:text="@string/app1"
             android:layout_marginTop="15dp"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/stockHawk"
-            android:text="@string/app2"
-            android:layout_marginTop="5dp"/>
+            android:text="@string/app2"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/buildItBigger"
-            android:text="@string/app3"
-            android:layout_marginTop="5dp"/>
+            android:text="@string/app3"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/materialApp"
-            android:text="@string/app4"
-            android:layout_marginTop="5dp"/>
+            android:text="@string/app4"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/goUbiquitious"
-            android:text="@string/app5"
-            android:layout_marginTop="5dp"/>
+            android:text="@string/app5" />
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CustomButtonStyle"
             android:id="@+id/capstone"
-            android:text="@string/app6"
-            android:layout_marginTop="5dp"/>
+            android:text="@string/app6" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,4 +53,4 @@
             android:text="@string/built_by"
             android:layout_marginTop="10dp"/>
     </LinearLayout>
-</RelativeLayout>
+</ScrollView>
